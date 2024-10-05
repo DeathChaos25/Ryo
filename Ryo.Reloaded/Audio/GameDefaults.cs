@@ -66,6 +66,11 @@ internal static class GameDefaults
         {
             Volume = 0.35f,
         },
+        ["metaphor"] = new()
+        {
+            CategoryIds = new int[] { 0, 9, 12 },
+            Volume = 0.07f,
+        },
     };
 
     public static AudioConfig CreateDefaultConfig(string game)
